@@ -1,0 +1,19 @@
+{
+  "name": "personal_portfolio",
+  "version": "1.0.0",
+  "description": "a personal portfolio made with react",
+  "main": "index.js",
+  "author": "Emma Thalen",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emtalen/personal_portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emtalen/personal_portfolio/issues"
+  },
+  "homepage": "https://github.com/emtalen/personal_portfolio#readme"
+}
