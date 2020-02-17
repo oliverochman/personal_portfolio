@@ -23,7 +23,7 @@ describe('User can navigate the app', () => {
         it('does not display Hello World', () => {
             cy.get('#project-header').should('not.exist');
         });
-    )};
+    });
 
     describe('to My Projects tab and it', () => { 
         beforeEach(() => {
@@ -56,9 +56,17 @@ describe('User can navigate the app', () => {
             cy.get('#hello').should('contain', 'Hello');
         });
         it('displays correct url', () => {
-        })
-        cy.get('#project-header').should('not.exist');
-        cy.get('#about-header').should('not.exist');
-    })
-})
-})
+            cy.url()
+                .should('not.contain', 'projects')
+                .should('not.contain', 'about');
+        });
+
+        it('does not display About Me header', () => {
+            cy.get('#about-header').should('not.exist');
+        });
+
+        it('does not display My Projects header', () => {
+            cy.get('#project-header').should('not.exist');
+        });
+    });
+});
