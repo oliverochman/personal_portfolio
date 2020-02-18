@@ -1,11 +1,24 @@
-import React from 'react';
+import React from "react";
+// import Sprinkler from "./sprinkler";
+// import Sprinkler from '/src/sprinkler.jsx'
+import Confetti from 'react-confetti'
 
-const Hello = () => {
+const Sprinkler = () => {
     return (
-        <div className='ui main container'>
-            <h1 id='hello'>Hello World</h1>
-        </div>
-    );
-};
+      <Confetti
+        width = {2000} 
+        height={1000}
+        colors={['grey', 'black', 'darkred']}
+      />
+    )
+  }
 
-export default Hello;
+  export default Sprinkler;
+// const Hello = () => {
+//   return ( 
+//     <div className="ui main container">
+//       <h1 id="hello">Hello Worldz</h1>
+//     </div>
+//   );
+// };
+// export default Hello;

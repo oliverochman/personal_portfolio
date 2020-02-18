@@ -7,6 +7,7 @@ import Projects from './Projects';
 import About from './About';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
+
 const App = () => {
     return (
         <div>
