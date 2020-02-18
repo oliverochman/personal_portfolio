@@ -9,15 +9,15 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 const App = () => {
     return (
-        <>
+        <div>
             <Header />
             <Switch>
                 <Route exact path='/' component={Hello}></Route>
-                <Route exact path='/' component={About}></Route>
-                <Route exact path='/' component={Projects}></Route>
+                <Route exact path='/about' component={About}></Route>
+                <Route exact path='/projects' component={Projects}></Route>
             </Switch>
             <Footer />
-        </>
+        </div>
     )
 };
 
