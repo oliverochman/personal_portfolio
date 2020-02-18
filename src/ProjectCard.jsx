@@ -3,13 +3,19 @@ import React from 'react';
 const ProjectCard = ({ project }) => {
     return (
         <div>
-            <div class='ui card'>
+            <div class='ui cards'>
+                <div class='card'>
                 <div class='image'>
                     <img src={project.image}/>
                 </div>
                 <div class='content'>
                     <h3 class='ui header'>{project.name}</h3>
-                    <p class='description'>{project.description}</p>
+                    <div class='description'>{project.description}</div>
+                    <div class='ui bottom attached button'>
+                        Show Project <br/>
+                    <i class="external alternate icon"></i> 
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
