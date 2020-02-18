@@ -8,23 +8,23 @@ describe('User can see list of projects', () => {
         cy.get('#project-1').within(() => {
             cy.get(('.image')).should('exist');
             cy.get('.ui.header').should('contain', 'My First Website');
-            cy.get('.description').should('contain', 'This was my first project. The guy lost, but won the popular vote!');
+            cy.get('.description').should('contain', "This was the first website I ever created. It's made with just basic HTML and CSS.");
         });
     });
 
     it('displays second project', () => {
         cy.get('#project-2').within(() => {
             cy.get(('.image')).should('exist');
-            cy.get('.ui.header').should('contain', 'UI Design');
-            cy.get('.description').should('contain','Designing user interfaces is fun. I want to learn more about that...');
+            cy.get('.ui.header').should('contain', 'BMI Calculator');
+            cy.get('.description').should('contain','This was my second time deploying a website. This is an BMI Calculator that is built with HTML, CSS and for my first time Javascript');
         });
     });
 
     it('displays third project', () => {
         cy.get('#project-3').within(() => {
             cy.get(('.image')).should('exist');
-            cy.get('.ui.header').should('contain', 'Mobile UX');
-            cy.get('.description').should('contain', 'I like to design for the mobile platform. The challenges to build UI\'s for smartphones is challenging but extremely rewarding.');
+            cy.get('.ui.header').should('contain', 'ATM');
+            cy.get('.description').should('contain', 'This is a simulation of how an ATM works. It is only built in Ruby and has no frontend to interact with.');
         });
     });
 });

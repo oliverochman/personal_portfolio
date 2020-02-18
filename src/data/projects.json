@@ -15,13 +15,13 @@
         "id": 3,
         "name": "ATM",
         "image": "/src/images-for-projects/undraw_make_it_rain_iwk4.png",
-        "description": "This is an address book built with HTML, CSS and Javascript. This is still a work in progress due to features I was not capable of building at the time working with it"
+        "description": "This is a simulation of how an ATM works. It is only built in Ruby and has no frontend to interact with."
     },
     {
         "id": 4,
         "name": "Address Book",
         "image": "/src/images-for-projects/undraw_contact_us_15o2.png",
-        "description": "This is a simulation of how an ATM works. It is only built in Ruby and has no frontend to interact with."
+        "description": "This is an address book built with HTML, CSS and Javascript. This is still a work in progress due to features I was not capable of building at the time working with it."
     },
     {
         "id": 5,
