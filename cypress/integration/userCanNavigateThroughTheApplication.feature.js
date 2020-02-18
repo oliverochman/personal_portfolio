@@ -31,7 +31,7 @@ describe('User can navigate the app', () => {
         });
 
         it('to My Projects header', () => {
-            cy.get('#projects-header').should('containt', 'My Projects');
+            cy.get('#projects-header').should('contain', 'My Projects');
         });
         
         it('displays component name in url', () => {
