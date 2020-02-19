@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import ProjectCard from './ProjectCard';
 
+
 class Projects extends Component {
     state = {
         projects: []
@@ -28,11 +29,12 @@ class Projects extends Component {
                 );
             });
         }
-
         return (
-            <div className='ui main container'>
-                <h1 id='projects-header' className='ui header'>My Projects</h1>
-                <div className='ui stackable four column grid'>{projectsList}</div>
+            <div className="ui main container">
+              <h1 id="projects-header" className="ui header">My Projects</h1>
+              <div className="ui stackable four column relaxed grid">
+                  {projectsList}
+                  </div>
             </div>
         );
     }
