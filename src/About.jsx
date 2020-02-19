@@ -9,10 +9,12 @@ const numbers = ["1", "2"]
             <div id='about-backgroud' style={{ background: 'url("./src/images/me.jpeg")', backgroundSize: 'cover', height: '100vh'}} >
                 <div>
                     <ul>
-                    
                         {numbers.map(number => {
                             return (
-                               <li><Popups number={number}/></li> 
+                               <li>
+                                    <i aria-hidden="true" class="heart circular icon"></i>                                    
+                                    <Popups content={number}/>
+                                </li> 
                             )
                         })}
                     </ul>
