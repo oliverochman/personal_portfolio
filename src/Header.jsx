@@ -15,6 +15,9 @@ const Header = () => {
                     <NavLink id='projects-tab' className='ui item' activeStyle={{ fontWeight: 'bold'}} to='/projects'>
                         Projects
                     </NavLink>
+                    <NavLink id='contact-tab' className='ui item' activeStyle={{ fontWeight: 'bold'}} to='/contact'>
+                        Contact
+                    </NavLink>
                 </div>
             </div>
         </nav>

@@ -26,3 +26,44 @@ footer {
   #about-background {
     z-index: 1;
   }
+
+  #hello {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-size: 100px;
+    margin-right: 5%;
+  }
+
+  #what-i-do {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 5%;
+  }
+
+  #myname {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-size: 45px;
+    margin-right: 5%;
+  }
+
+  #header {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #about-tab {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+  #projects-tab {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  #contact-tab {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
