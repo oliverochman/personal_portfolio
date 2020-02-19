@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectCard = ({ project }) => {
     return (
         <div>
-            <div class='ui cards'>
+            <div class='ui cards' style={{marginBottom: 20}} >
                 <div class='card'>
                 <div class='image'>
                     <img src={project.image}/>

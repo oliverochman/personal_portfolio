@@ -22,3 +22,7 @@ footer {
   #app {
     padding-bottom: 70px;
   }
+
+  #about-background {
+    z-index: 1;
+  }

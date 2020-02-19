@@ -1,10 +1,16 @@
 import React from 'react';
+// import Popups from './Popups';
 
 const About = () => {
+
     return (
-        <div className='ui main container'>
+        <div className='ui main container' >
             <h1 id='about-header' className='ui header'>About Me</h1>
-            <img id='about_me_image' src='/src/images-from-undraw/undraw_personal_documents_cgj5.png'/>
+            <div id='about-backgroud' style={{ background: 'url("./src/images/me.jpeg")', backgroundSize: 'cover', height: '100vh'}} >
+                <div>
+                    
+                </div>
+            </div>
         </div>
     );
 };
