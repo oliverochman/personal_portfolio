@@ -1,8 +1,8 @@
 import React from 'react';
-import Popups from './Popup';
+import { Icon, Popup } from 'semantic-ui-react';
 
 const About = () => {
-const numbers = ["1", "2"]
+const numbers = ["Jag är 25 år gammla", "Jag bor i Västerås"]
     return (
         <div className='ui main container' >
             <h1 id='about-header' className='ui header'>About Me</h1>
@@ -12,8 +12,12 @@ const numbers = ["1", "2"]
                         {numbers.map(number => {
                             return (
                                <li>
-                                    <i aria-hidden="true" class="heart circular icon"></i>                                    
-                                    <Popups content={number}/>
+                                                                      
+                                    <Popup
+                                        trigger={<Icon circular name='heart' />}
+                                        content={number}
+                                        size='small'
+                                    />
                                 </li> 
                             )
                         })}
