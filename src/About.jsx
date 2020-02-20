@@ -5,7 +5,7 @@ const About = () => {
 const numbers = [
     "I'm 25 years old", 
     "I live in Västerås, a small town outside of Stockholm, in Sweden",
-    "I'm right now stuying at Craft Academt to become a Junior Developer",
+    "I'm right now studying at Craft Academt to become a Junior Developer",
     "I can make the best Old Fashion that you probably ever tasted",
     "I have competed up to international Grand Prix in Showjumping" ]
     return (
@@ -33,4 +33,3 @@ const numbers = [
 };
 
 export default About;
-

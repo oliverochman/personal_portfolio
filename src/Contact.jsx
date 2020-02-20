@@ -44,6 +44,7 @@ import { Icon } from 'semantic-ui-react'
               </div>
             </div>
           </Slide>
+          <img id='contact-pic' src='/src/images/rose.jpeg'/>
         </div>
         </div>
       )

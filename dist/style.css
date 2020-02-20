@@ -86,9 +86,11 @@ footer {
 .slide-container {
   width: 50%;
   margin: auto; 
-  background-image: url(/src/images/sillyme.jpeg);
+  background-color: white;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
 
 h3 {
@@ -98,8 +100,9 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
+  background-size: 50%;
   height: 300px;
+  z-index: 99;
 }
 
 .each-slide span {
@@ -134,4 +137,7 @@ h3 {
 #contact-pic {
   z-index: 1;
   height: 30%;
+  height: 100%;
+  margin-left: 0px;
+  margin-top: 0%;
 }
