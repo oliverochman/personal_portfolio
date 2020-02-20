@@ -26,7 +26,6 @@ const numbers = [
                             </p>
                         )
                     })}    
-                    
                 </div>
             </div>
         </div>
