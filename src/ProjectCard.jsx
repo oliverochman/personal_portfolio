@@ -2,16 +2,16 @@ import React from 'react';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="ui card">
-            <a className="image" href={project.link}>
+        <div class="ui card" style={{marginBottom:'10%'}}>
+            <a class="image" href={project.link}>
                 <img src={project.image}/>
             </a>
-            <div className="content">
-                <a className="header" href={project.link}>{project.name}</a>
-                <div className="meta">
-                    <p>{project.description}</p>
+                <div class="content">
+                <a class="header" href={project.link}>{project.name}</a>
+                    <div class="meta">
+                <p style={{fontWeight: 'bold'}}>{project.description}</p>
+                    </div>
                 </div>
-            </div>
         </div>
     );
 };
