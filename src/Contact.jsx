@@ -20,27 +20,27 @@ import { Icon } from 'semantic-ui-react'
           <Slide {...properties}>
             <div className="each-slide">
               <div>
-                <span><Icon size='huge' name='instagram'/> @emthalen</span>
+                <span><Icon size='big' name='instagram'/> @emthalen</span>
               </div>
             </div>
             <div className="each-slide">
               <div>
-                <span><Icon size='huge' name='linkedin symbol'/>Emma-Maria Thalen</span>
+                <span><Icon size='big' name='linkedin symbol'/> Emma-Maria Thalen</span>
               </div>
             </div>
             <div className="each-slide">
               <div>
-                <span><Icon size='huge' name='facebook square icon'/>Emma-Maria Thalen</span>
+                <span><Icon size='big' name='facebook square icon'/> Emma-Maria Thalen</span>
               </div>
             </div>
             <div className="each-slide">
               <div>
-                <span><Icon size='huge' name='envelope icon'/>thalen.emma@gmail.com</span>
+                <span><Icon size='big' name='envelope icon'/> thalen.emma@gmail.com</span>
               </div>
             </div>
             <div className="each-slide">
               <div>
-                <span><Icon size='huge' name='mobile alternate icon'/>+46(0)76-105 8101</span>
+                <span><Icon size='big' name='mobile alternate icon'/> +46(0)76-105 8101</span>
               </div>
             </div>
           </Slide>
