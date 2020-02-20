@@ -2,33 +2,37 @@
     {
         "id": 1,
         "name": "My First Website",
-        "image": "/src/images/undraw_start_building_vqhd.png",
+        "image": "/src/images/magic.jpeg",
         "description": "This was the first website I ever created. It's made with just basic HTML and CSS.",
         "link": "https://emtalen.github.io/"
     },
     {
         "id": 2,
         "name": "BMI Calculator",
-        "image": "/src/images/undraw_modern_art_x3qc.png",
-        "description": "This was my second time deploying a website. This is an BMI Calculator that is built with HTML, CSS and for my first time Javascript"
+        "image": "/src/images/fingers.jpeg",
+        "description": "This was my second time deploying a website. This is an BMI Calculator that is built with HTML, CSS and for my first time Javascript",
+        "link": "https://emtalen.github.io/bmi_calculator/"
     },
     {
         "id": 3,
-        "name": "ATM",
-        "image": "/src/images/undraw_make_it_rain_iwk4.png",
-        "description": "This is a simulation of how an ATM works. It is only built in Ruby and has no frontend to interact with."
+        "name": "ATM-Machine",
+        "image": "/src/images/gun.jpeg",
+        "description": "This is a simulation of how an ATM works. It is only built in Ruby and has no frontend to interact with.",
+        "link": "https://github.com/emtalen/atm_challenge_2019"
     },
     {
         "id": 4,
         "name": "Address Book",
-        "image": "/src/images/undraw_contact_us_15o2.png",
-        "description": "This is an address book built with HTML, CSS and Javascript. This is still a work in progress due to features I was not capable of building at the time working with it."
+        "image": "/src/images/book.jpeg",
+        "description": "This is an address book built with HTML, CSS and Javascript. This is still a work in progress due to features I was not capable of building at the time working with it.",
+        "link": "https://emmasaddressbook.netlify.com"
     },
     {
         "id": 5,
-        "name": "Article website",
-        "image": "/src/images/undraw_add_notes_8cfw.png",
-        "description": "This was my first project where I interacted with Ruby on Rails. So don't mind the frontend, my focus was behind that"
+        "name": "Article Website",
+        "image": "/src/images/light.jpeg",
+        "description": "This was my first project where I interacted with Ruby on Rails. So don't mind the frontend, my focus was behind that",
+        "link": "https://github.com/emtalen/rails_demo"
  
     }
   ]

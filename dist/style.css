@@ -18,6 +18,10 @@ footer {
     margin-top: 4em;
 }
 
+.ui.fixed.inverted.menu {
+  height: 7%;
+}
+
 #about_me_image {
     width: 100%;
 }
@@ -77,10 +81,18 @@ footer {
 
 #about-header {
   font-family: 'Courier New', Courier, monospace;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 
 #contact-header {
   font-family: 'Courier New', Courier, monospace;
+}
+
+#projects-header {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 
 .slide-container {
