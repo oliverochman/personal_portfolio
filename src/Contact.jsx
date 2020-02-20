@@ -1,12 +1,6 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
-
-
-const slideImages = [
-    'src/images/linkedin.jpeg',
-    'images/instagram.jpeg',
-    'images/facebook.jpeg'
-  ];
+import { Icon } from 'semantic-ui-react'
    
   const properties = {
     duration: 5000,
@@ -21,34 +15,36 @@ const slideImages = [
    
   const Contact = () => {
       return (
-        <div className="slide-container">
+          <div lassName='ui main container' >
+        <div className="slide-container" >
           <Slide {...properties}>
             <div className="each-slide">
               <div>
-                <span><i class="instagram icon"></i> @emthalen</span>
+                <span><Icon size='huge' name='instagram'/> @emthalen</span>
               </div>
             </div>
             <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-                <span><i class="linkedin icon"></i>Emma-Maria Thalen</span>
+              <div>
+                <span><Icon size='huge' name='linkedin symbol'/>Emma-Maria Thalen</span>
               </div>
             </div>
             <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-                <span><i class="facebook square icon"></i>Emma-Maria Thalen</span>
+              <div>
+                <span><Icon size='huge' name='facebook square icon'/>Emma-Maria Thalen</span>
               </div>
             </div>
             <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-                <span><i class="envelope icon"></i>thalen.emma@gmail.com</span>
+              <div>
+                <span><Icon size='huge' name='envelope icon'/>thalen.emma@gmail.com</span>
               </div>
             </div>
             <div className="each-slide">
-              <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-                <span><i class="mobile alternate icon"></i>+46(0)76-105 8101</span>
+              <div>
+                <span><Icon size='huge' name='mobile alternate icon'/>+46(0)76-105 8101</span>
               </div>
             </div>
           </Slide>
+        </div>
         </div>
       )
   }

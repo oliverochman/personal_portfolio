@@ -84,8 +84,12 @@ footer {
 }
 
 .slide-container {
-  width: 70%;
-  margin: auto; }
+  width: 50%;
+  margin: auto; 
+  background-image: url(/src/images/sillyme.jpeg);
+  background-size: cover;
+  height: 100vh;
+}
 
 h3 {
   text-align: center; }
@@ -100,8 +104,8 @@ h3 {
 
 .each-slide span {
   padding: 20px;
-  font-size: 20px;
-  background: #efefef;
+  font-size: 30px;
+  background: #ffffff;
   text-align: center;
 }
 
@@ -125,4 +129,9 @@ h3 {
   align-items: center;
   margin: 0;
   background: #adceed;
+}
+
+#contact-pic {
+  z-index: 1;
+  height: 30%;
 }
