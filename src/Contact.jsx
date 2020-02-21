@@ -14,11 +14,11 @@ const properties = {
   }
   const Contact = () => {
     const contactInfo = [
+      {name: "envelope", content: "thalen.emma@gmail.com"},
+      {name: "mobile alternate", content: "+46(0)76-105 8101"},
       {name: "instagram", content: "@emthalen"},
       {name: "linkedin square", content: "Emma-Maria Thalen"},
       {name: "facebook square", content: "Emma-Maria Thalen"},
-      {name: "envelope", content: "thalen.emma@gmail.com"},
-      {name: "mobile alternate", content: "+46(0)76-105 8101"},
     ]
       return (
         <div className='slide-container'>
