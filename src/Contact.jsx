@@ -12,23 +12,28 @@ import { Icon } from 'semantic-ui-react';
     }
   }
   const Contact = () => {
-    const contacts = [
-        <span><Icon size='big' name='facebook square icon'/> Emma-Maria Thalen</span>,
-        <span><Icon size='big' name='linkedin symbol'/> Emma-Maria Thalen</span> 
-      ]
+    const contactInfo = [
+      {name: "instagram", content: "@emthalen"},
+      {name: "linkedin square", content: "Emma-Maria Thalen"},
+      {name: "facebook square", content: "Emma-Maria Thalen"},
+      {name: "envelope", content: "thalen.emma@gmail.com"},
+      {name: "mobile alternate", content: "+46(0)76-105 8101"},
+    ]
       return (
         <div className='slide-container'>
-          {contacts.map = (contact => {
-            return (
-            <Slide {...properties}>
-              <div className='each-slide'>
-                {contact}
-              </div>
-            </Slide>
-            )
-          })}    
+          <Slide {...properties}>
+            {contactInfo.map (info => {
+              return (
+                <div className='each-slide' key={info.name}>
+                  <div>
+                    <span><Icon size='big' name={info.name}/>{info.content}</span>
+                  </div>
+                </div>
+              )
+            })}
+          </Slide>
           <img id='contact-pic' src='/src/images/rose.jpeg'/>
         </div>
       )
   }
-export default Contact;
+  export default Contact;
