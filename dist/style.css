@@ -18,6 +18,10 @@ footer {
     margin-top: 4em;
 }
 
+.ui.fixed.inverted.menu {
+  height: 7%;
+}
+
 #about_me_image {
     width: 100%;
 }
@@ -33,22 +37,26 @@ footer {
 #hello {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    font-size: 100px;
-    margin-right: 5%;
+    font-size: 80px;
+    
 }
+ #hello-div {
+    position: relative;
+    margin-right: 5%;
+    margin-left: auto;
+    margin-top: -40%;
+ }
 
 #what-i-do {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
     font-size: 20px;
-    margin-right: 5%;
 }
 
 #myname {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    font-size: 45px;
-    margin-right: 5%;
+    font-size: 40px;
 }
 
 #header {
@@ -77,10 +85,18 @@ footer {
 
 #about-header {
   font-family: 'Courier New', Courier, monospace;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 
 #contact-header {
   font-family: 'Courier New', Courier, monospace;
+}
+
+#projects-header {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 
 .slide-container {
@@ -102,12 +118,11 @@ h3 {
   justify-content: center;
   background-size: 50%;
   height: 300px;
-  z-index: 99;
 }
 
 .each-slide span {
   padding: 20px;
-  font-size: 30px;
+  font-size: 45px;
   background: #ffffff;
   text-align: center;
 }
@@ -131,13 +146,10 @@ h3 {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background: #adceed;
+  background: white;
 }
 
 #contact-pic {
-  z-index: 1;
-  height: 30%;
   height: 100%;
   margin-left: 0px;
-  margin-top: 0%;
 }

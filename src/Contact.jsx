@@ -1,7 +1,8 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import { Icon } from 'semantic-ui-react';
-  const properties = {
+  
+const properties = {
     duration: 5000,
     transitionDuration: 500,
     infinite: true,
@@ -31,6 +32,7 @@ import { Icon } from 'semantic-ui-react';
                 </div>
               )
             })}
+
           </Slide>
           <img id='contact-pic' src='/src/images/rose.jpeg'/>
         </div>
