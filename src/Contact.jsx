@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import { Icon } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react';
 
   const properties = {
     duration: 5000,
@@ -50,4 +50,4 @@ import { Icon } from 'semantic-ui-react'
       )
   }
   
-  export default Contact
+  export default Contact;
