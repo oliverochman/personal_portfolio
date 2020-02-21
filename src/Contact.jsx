@@ -14,31 +14,38 @@ import { Icon } from 'semantic-ui-react';
   }
    
   const Contact = () => {
-    const contacts = [
-      <div className='each-slide'>
-      <span><Icon size='big' name='facebook square icon'/> Emma-Maria Thalen</span>,
-      <span><Icon size='big' name='linkedin symbol'/> Emma-Maria Thalen</span>
-      </div>
-      // <span><Icon size='big' name='facebook square icon'/> Emma-Maria Thalen</span>,
-      // <span><Icon size='big' name='envelope icon'/> thalen.emma@gmail.com</span>,
-      // <span><Icon size='big' name='mobile alternate icon'/> +46(0)76-105 8101</span>
-    ]
       return (
+          <div lassName='ui main container' >
         <div className='slide-container'>
-          {contacts.map = (contact => {
-            return (
-          
           <Slide {...properties}>
-            {/* <div className='each-slide'> */}
+            <div className='each-slide'>
               <div>
-                {contact}
+                <span><Icon size='big' name='instagram'/> @emthalen</span>
               </div>
-            {/* </div> */}
-            </Slide>
-            )
-          })}
-          
+            </div>
+            <div className='each-slide'>
+              <div>
+                <span><Icon size='big' name='linkedin symbol'/> Emma-Maria Thalen</span>
+              </div>
+            </div>
+            <div className='each-slide'>
+              <div>
+                <span><Icon size='big' name='facebook square icon'/> Emma-Maria Thalen</span>
+              </div>
+            </div>
+            <div className='each-slide'>
+              <div>
+                <span><Icon size='big' name='envelope icon'/> thalen.emma@gmail.com</span>
+              </div>
+            </div>
+            <div className='each-slide'>
+              <div>
+                <span><Icon size='big' name='mobile alternate icon'/> +46(0)76-105 8101</span>
+              </div>
+            </div>
+          </Slide>
           <img id='contact-pic' src='/src/images/rose.jpeg'/>
+        </div>
         </div>
       )
   }
