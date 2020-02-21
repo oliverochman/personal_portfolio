@@ -1,13 +1,22 @@
-import React from "react";
-import { Button, Popup } from 'semantic-ui-react';
+import React from 'react';
 
 
 const Hello = () => {
     return ( 
-      <div className="ui main container" style={{ background: 'url("./src/images/background.jpeg")', backgroundSize: 'cover', height: '100vh', marginTop: '5%'}}>
-        <h1 id='myname'>I am Emma-Maria Thalen</h1>
+      <div className="hero-image"
+    style={{
+      background: 'url("/src/images/background.jpeg")',
+      backgroundSize: 'cover',
+      height: '100vh',
+      marginTop: '-1rem',
+      display: 'flex',
+      alignItems: 'center'
+      }}>
+        <div id='hello-div'>
+        <h2 id='myname'>I am Emma-Maria Thalen</h2>
         <h3 id='what-i-do'>| equestrian | developer |</h3>
-        <h1 id="hello">Welcome</h1>
+        <h1 id='hello'>Welcome</h1>
+        </div>
       </div>
     );
 };

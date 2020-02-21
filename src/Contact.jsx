@@ -1,5 +1,5 @@
-import React from "react";
-import { Slide } from "react-slideshow-image";
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
 import { Icon } from 'semantic-ui-react'
    
   const properties = {
@@ -16,29 +16,29 @@ import { Icon } from 'semantic-ui-react'
   const Contact = () => {
       return (
           <div lassName='ui main container' >
-        <div className="slide-container" >
+        <div className='slide-container'>
           <Slide {...properties}>
-            <div className="each-slide">
+            <div className='each-slide'>
               <div>
                 <span><Icon size='big' name='instagram'/> @emthalen</span>
               </div>
             </div>
-            <div className="each-slide">
+            <div className='each-slide'>
               <div>
                 <span><Icon size='big' name='linkedin symbol'/> Emma-Maria Thalen</span>
               </div>
             </div>
-            <div className="each-slide">
+            <div className='each-slide'>
               <div>
                 <span><Icon size='big' name='facebook square icon'/> Emma-Maria Thalen</span>
               </div>
             </div>
-            <div className="each-slide">
+            <div className='each-slide'>
               <div>
                 <span><Icon size='big' name='envelope icon'/> thalen.emma@gmail.com</span>
               </div>
             </div>
-            <div className="each-slide">
+            <div className='each-slide'>
               <div>
                 <span><Icon size='big' name='mobile alternate icon'/> +46(0)76-105 8101</span>
               </div>

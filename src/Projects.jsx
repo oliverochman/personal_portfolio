@@ -30,9 +30,9 @@ class Projects extends Component {
             });
         }
         return (
-            <div className="ui main container">
-              <h1 id="projects-header" className="ui header">My Projects</h1>
-              <div className="ui stackable four column relaxed grid">
+            <div className='ui main container'>
+              <h1 id='projects-header' className='ui header'>My Projects</h1>
+              <div className='ui stackable four column relaxed grid'>
                   {projectsList}
                   </div>
             </div>
