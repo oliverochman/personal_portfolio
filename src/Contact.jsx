@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import { Icon } from 'semantic-ui-react'
-   
+
   const properties = {
     duration: 5000,
     transitionDuration: 500,

@@ -13,7 +13,7 @@ const numbers = [
             <h1 id='about-header' className='ui header'>About Me</h1>
             <div id='about-backgroud' style={{ background: 'url("./src/images/flowergirl.jpeg")', backgroundSize: 'cover', height: '100vh'}} >
                 <div>
-                    {numbers.map(number => {
+                    {numbers.map (number => {
                         return (
                             <p id='popups'>                                   
                                 <Popup
