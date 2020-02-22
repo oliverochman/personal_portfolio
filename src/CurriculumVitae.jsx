@@ -48,20 +48,20 @@ class Cv extends Component {
                 </div>
             <VerticalTimeline>
                 {this.state.cvExperience.map(experience =>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(255, 255, 255)', color: '#fffff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
-                    date={experience.date} 
-                    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fffff'}}
-                    icon={<Icon size='huge' name={experience.icon} />}
-                > 
-                    <h3 className="vertical-timeline-element-title">{experience.title}</h3>
-                    <h4 className="vertical-timeline-element-subtitle">{experience.location}</h4>
-                    <p className='experience-description'>
-                    {experience.description}            
-                    </p>
-                </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: 'rgb(255, 255, 255)', color: '#fffff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
+                        date={experience.date} 
+                        iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fffff'}}
+                        icon={<Icon size='huge' name={experience.icon} />}
+                    > 
+                        <h3 className="vertical-timeline-element-title">{experience.title}</h3>
+                        <h4 className="vertical-timeline-element-subtitle">{experience.location}</h4>
+                        <p className='experience-description'>
+                        {experience.description}            
+                        </p>
+                    </VerticalTimelineElement>
                 )}
             </VerticalTimeline>
         </div>
