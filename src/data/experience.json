@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "date": "January 2020 - Currently",
+        "icon": "code",
+        "title": "Student at Craft Academy",
+        "location": "Kista, Sweden",
+        "description": "Studying to become a Junior Developer in software with fullstack skills"
+    },
+    {
+        "id": 2,
+        "date": "January 2019 - January 2020",
+        "icon": "suitcase",
+        "title": "Customer Service at Postnord",
+        "location": "Västerås, Sweden",
+        "description": "Working in customer service for the shipment delivery department at Postnord. Solving problems with deliveries to both companies and private persons."
+    },
+    {
+        "id": 3,
+        "date": "September 2018 - January 2019",
+        "icon": "glass martini",
+        "title": "Bar Manager at Boca restaurant and bar",
+        "location": "Västerås, Sweden",
+        "description": "Working as a bartender and barmanager full time at one of Västerås most popular restaurants"
+    },
+    {
+        "id": 4,
+        "date": "January 2018 - September 2018",
+        "icon": "glass martini",
+        "title": "Bartender at the Circus Bar",
+        "location": "Västerås, Sweden",
+        "description": "Worked my way up from runner to bartender and was responsible for the outdoor seating during the summer"
+    },
+    {
+        "id": 5,
+        "date": "July 2017 - November 2017",
+        "icon": "globe",
+        "title": "Rider and groom at Ernik Stables",
+        "location": "Wolvertem, Belgium",
+        "description": "Training the horses at home and help out as a groom on shows" 
+    },
+    {
+        "id": 6,
+        "date": "January 2016 - July 2017",
+        "icon": "globe",
+        "title": "Rider at Stephex Stables",
+        "location": "Wolvertem, Belgium",
+        "description": "Did my internship there and was after that hired. Worked with training the horses at home and also trained and competed with younger horses"
+
+    },
+    {
+        "id": 7,
+        "date": "August 2014 - April 2016",
+        "icon": "graduation cap",
+        "title": "Studied 'Beridarprogrammet at Flyinge",
+        "location": "Flyinge, Sweden",
+        "description": "Studied the work of becoming a rider and horse trainer. That included training horses but also theory in business magagment and business economics"
+
+    },
+    {
+        "id": 8,
+        "date": "June 2013 - August 2014",
+        "icon": "tasks",
+        "title": "Stable manager and Au pair at Gimmersta Säteri",
+        "location": "Julita, Sweden",
+        "description": "Worked for a family with taking care of the stables and their daughters horses as well as helping out with other things for the family"
+
+    },
+    {
+        "id": 9,
+        "date": "August 2010 - June 2013",
+        "icon": "graduation cap",
+        "title": "Studied the society program at Jensen Gymnasium",
+        "location": "Västerås, Sweden",
+        "description": "I graduated with very high grades to be able to study at a university"
+
+    }
+  ]
