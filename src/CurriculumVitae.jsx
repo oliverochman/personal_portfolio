@@ -49,6 +49,7 @@ class Cv extends Component {
             <VerticalTimeline>
                 {this.state.cvExperience.map(experience =>
                     <VerticalTimelineElement
+                        key={experience.id}
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#fffff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
