@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon, Popup } from 'semantic-ui-react';
 
 const About = () => {
-const numbers = [
+const infos = [
     "I'm 25 years old and still dreaming about how it will be when I grow up", 
     "I live in Västerås, a small town outside of Stockholm, in Sweden",
     "I'm right now studying at Craft Academy to become a Junior Developer",
@@ -13,17 +13,16 @@ const numbers = [
             <h1 id='about-header' className='ui header'>About Me</h1>
             <div id='about-backgroud' style={{ background: 'url("./src/images/flowergirl.jpeg")', backgroundSize: 'cover', height: '100vh'}} >
                 <div>
-                    {numbers.map (number => {
+                    {infos.map (info => {
                         return (
                             <p id='popups'>                                   
                                 <Popup
                                     trigger={<Icon size='huge' circular name='lemon outline' />}
-                                    content={number}
+                                    content={info}
                                     size='huge'
                                     offset='0, 50px'
                                     position='right center'
                                     font= 'Courier'
-                                    
                                 />
                             </p>
                         )
