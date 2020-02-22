@@ -37,22 +37,27 @@ footer {
 #hello {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    font-size: 100px;
-    margin-right: 5%;
+    font-size: 80px;
+    
 }
+ #hello-div {
+    position: top-right;
+    margin-right: 5%;
+    margin-left: auto;
+    display: block;
+    margin-top: -20%;
+ }
 
 #what-i-do {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
     font-size: 20px;
-    margin-right: 5%;
 }
 
 #myname {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    font-size: 45px;
-    margin-right: 5%;
+    font-size: 40px;
 }
 
 #header {
@@ -114,12 +119,11 @@ h3 {
   justify-content: center;
   background-size: 50%;
   height: 300px;
-  z-index: 99;
 }
 
 .each-slide span {
   padding: 20px;
-  font-size: 30px;
+  font-size: 45px;
   background: #ffffff;
   text-align: center;
 }
@@ -143,13 +147,10 @@ h3 {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background: #adceed;
+  background: white;
 }
 
 #contact-pic {
-  z-index: 1;
-  height: 30%;
   height: 100%;
   margin-left: 0px;
-  margin-top: 0%;
 }
