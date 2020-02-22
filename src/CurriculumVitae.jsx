@@ -25,7 +25,7 @@ class Cv extends Component {
                     <div class="four wide column">
                         <h3 className='column-header'>Personal Skills</h3>
                             <ul>
-                                <li>Great teamplayer</li>
+                                <li>Great team player</li>
                                 <li>Commited to the given task</li>
                                 <li>Service minded</li>
                                 <li>Curious and not afraid of the unknown</li>

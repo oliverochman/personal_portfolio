@@ -8,6 +8,16 @@ describe('User can read my CV', () => {
         cy.get('#cv-header').should('contain', 'My CV')
     });
 
+    it('displays personal skills', () => {
+        cy.get('.column-header').should('contain', 'Personal Skills')
+        cy.get('li').should('contain', 'Great team player')
+    })
+
+    it('displays competence', () => {
+        cy.get('.column-header').should('contain', 'Competence')
+        cy.get('li').should('contain', 'HTML')
+    })
+
     it('displays title of first experience in the cv', () => {
         cy.get('.vertical-timeline-element-title').should('contain', 'Student at Craft Academy')
     });
