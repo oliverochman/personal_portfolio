@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Projects from './Projects';
 import About from './About';
-import Contact from './Contact'
+import Contact from './Contact';
 import Cv from './CurriculumVitae';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 

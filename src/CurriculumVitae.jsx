@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { Icon } from 'semantic-ui-react';
-import axios from 'axios'
+import axios from 'axios';
 
 class Cv extends Component {
     state = {
