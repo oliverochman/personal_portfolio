@@ -7,7 +7,7 @@ describe('User can see list of projects', () => {
     it('displays first project', () => {
         cy.get('#project-1').within(() => {
             cy.get(('.image')).should('exist');
-            cy.get('.ui.header').should('contain', 'My First Website');
+            cy.get('.header').should('contain', 'My First Website');
             cy.get('.description').should('contain', "This was the first website I ever created. It's made with just basic HTML and CSS.");
         });
     });
@@ -15,7 +15,7 @@ describe('User can see list of projects', () => {
     it('displays second project', () => {
         cy.get('#project-2').within(() => {
             cy.get(('.image')).should('exist');
-            cy.get('.ui.header').should('contain', 'BMI Calculator');
+            cy.get('.header').should('contain', 'BMI Calculator');
             cy.get('.description').should('contain','This was my second time deploying a website. This is an BMI Calculator that is built with HTML, CSS and for my first time Javascript');
         });
     });
@@ -23,7 +23,7 @@ describe('User can see list of projects', () => {
     it('displays third project', () => {
         cy.get('#project-3').within(() => {
             cy.get(('.image')).should('exist');
-            cy.get('.ui.header').should('contain', 'ATM');
+            cy.get('.header').should('contain', 'ATM');
             cy.get('.description').should('contain', 'This is a simulation of how an ATM works. It is only built in Ruby and has no frontend to interact with.');
         });
     });
