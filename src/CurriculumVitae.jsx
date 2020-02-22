@@ -21,9 +21,9 @@ class Cv extends Component {
         return (
             <div className='ui main container' >
                 <h1 id='cv-header' className='ui header'>My CV</h1>
-                <div class="ui grid">
-                    <div class="four wide column"></div>
-                    <div class="four wide column">
+                <div className="ui grid">
+                    <div className="four wide column"></div>
+                    <div className="four wide column">
                         <h3 className='column-header'>Personal Skills</h3>
                             <ul>
                                 <li>Great team player</li>
@@ -33,7 +33,7 @@ class Cv extends Component {
                                 <li>Responsible and organised</li>
                             </ul>
                     </div>
-                    <div class="four wide column">
+                    <div className="four wide column">
                     <h3 className='column-header'>Competence</h3>
                             <ul>
                                 <li>HTML</li>
@@ -44,7 +44,7 @@ class Cv extends Component {
                                 <li>Ruby on Rails</li>
                             </ul>
                     </div>
-                    <div class="four wide column"></div>
+                    <div className="four wide column"></div>
                 </div>
             <VerticalTimeline>
                 {this.state.cvExperience.map(experience =>
