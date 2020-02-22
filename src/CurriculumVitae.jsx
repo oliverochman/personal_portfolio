@@ -11,8 +11,9 @@ class Cv extends Component {
     componentDidMount() {
         axios.get('./src/data/experience.json')
             .then(response => {
-                const cvExperience = response.data;
-                this.setState({ cvExperience })
+                this.setState({
+                    cvExperience: response.data
+                })
             })
     };
 
