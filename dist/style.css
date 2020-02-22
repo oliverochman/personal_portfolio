@@ -1,6 +1,7 @@
 #app {
   font-family: 'Courier New', Courier, monospace;
 }
+
 footer {
     position: fixed;
     bottom: 0;
@@ -153,4 +154,26 @@ h3 {
 #contact-pic {
   height: 100%;
   margin-left: 0px;
+}
+
+#cv-header {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.vertical-timeline-element-title {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.vertical-timeline-element-subtitle {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.column-header {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.four.wide.column {
+  margin-bottom: 10%;
 }

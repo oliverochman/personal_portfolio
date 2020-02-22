@@ -19,8 +19,32 @@ class Cv extends Component {
     render() {
         return (
             <div className='ui main container' >
-                <h1 id='about-header' className='ui header'>My CV</h1>
-                
+                <h1 id='cv-header' className='ui header'>My CV</h1>
+                <div class="ui grid">
+                    <div class="four wide column"></div>
+                    <div class="four wide column">
+                        <h3 className='column-header'>Personal Skills</h3>
+                            <ul>
+                                <li>Great teamplayer</li>
+                                <li>Commited to the given task</li>
+                                <li>Service minded</li>
+                                <li>Curious and not afraid of the unknown</li>
+                                <li>Responsible and organised</li>
+                            </ul>
+                    </div>
+                    <div class="four wide column">
+                    <h3 className='column-header'>Competence</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>React JS</li>
+                                <li>Ruby</li>
+                                <li>Ruby on Rails</li>
+                            </ul>
+                    </div>
+                    <div class="four wide column"></div>
+                </div>
             <VerticalTimeline>
                 {this.state.cvExperience.map(experience =>
                 <VerticalTimelineElement
@@ -33,7 +57,7 @@ class Cv extends Component {
                 > 
                     <h3 className="vertical-timeline-element-title">{experience.title}</h3>
                     <h4 className="vertical-timeline-element-subtitle">{experience.location}</h4>
-                    <p>
+                    <p className='experience-description'>
                     {experience.description}            
                     </p>
                 </VerticalTimelineElement>
