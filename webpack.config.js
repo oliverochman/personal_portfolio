@@ -44,12 +44,5 @@ module.exports = {
       })
     ]
   },
-
-  module.exports = {
-    optimization: {
-      minimize: true,
-      minimizer: [new TerserPlugin()],
-    },
-  },
   plugins: [new webpack.HotModuleReplacementPlugin()]
 };
