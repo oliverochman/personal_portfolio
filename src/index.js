@@ -6,7 +6,6 @@ import Footer from './Footer';
 import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
-import Cv from './CurriculumVitae';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 
@@ -20,7 +19,6 @@ const App = () => {
                     <Route exact path='/about' component={About}></Route>
                     <Route exact path='/projects' component={Projects}></Route>
                     <Route exact path='/contact' component={Contact}></Route>
-                    <Route exact path='/cv' component={Cv}></Route>
                 </Switch>
                 <Footer />
             </div>
